@@ -54,7 +54,7 @@ def convert(s, numRows):
         for i in range(rows): # creating a concatinated string horizontally
             for j in range(cols):
                 if output[i][j] != 0:
-                    OutStr += output[i][j]
+                    OutStr += str(output[i][j])
 
         return OutStr,output
             
